@@ -1,6 +1,8 @@
 # Python Serial Monitor
 
-## Installation
+## Dependencies
+
+To use Python Serial Monitor, you will need Python 2.7 and the pySerial library. Follow the steps below to install these dependencies for your platform. 
 
 ### Ubuntu
 It is likely that the required pySerial library is already installed. If not, you can install by running the following commands.
@@ -13,6 +15,7 @@ pip install pyserial
 ```bash
 wget https://bootstrap.pypa.io/get-pip.py
 python get-pip.py
+pip install pyserial
 ```
 You may need to run `sudo python get-pip.py` if you get a permission denied error.
 
