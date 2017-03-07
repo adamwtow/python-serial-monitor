@@ -132,9 +132,9 @@ while True:
     try:
             psm.run()
     except serial.SerialException:
-        print "Monitor: Disconnected (Serial exception)"
+        print ("Monitor: Disconnected (Serial exception)")
     except IOError:
-        print "Monitor: Disconnected (I/O Error)"
+        print ("Monitor: Disconnected (I/O Error)")
     except KeyboardInterrupt:
-        print "Monitor: Keyboard Interrupt. Exiting Now..."
+        print ("Monitor: Keyboard Interrupt. Exiting Now...")
         sys.exit(1)
